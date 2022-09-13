@@ -1,0 +1,21 @@
+{
+  "name": "mock-restapi-server",
+  "version": "1.0.0",
+  "description": "This is a dummy rest api application for testing your frontend while learning how to make rest api calls.",
+  "scripts": {
+    "start": "json-server --watch backend/db.json --port 5001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "restapi",
+    "dummy restapi",
+    "mock api"
+  ],
+  "author": "adarsh.pandey",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
